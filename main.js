@@ -13,7 +13,7 @@ const swaggerJsdoc = require("swagger-jsdoc");
 const program = new Command();
 
 program
-  .requiredOption("-h, --host <host>", "Server host")
+  .requiredOption("--host <host>", "Server host")
   .requiredOption("-p, --port <port>", "Server port")
   .requiredOption("-c, --cache <path>", "Cache directory");
 
