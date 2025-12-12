@@ -1,0 +1,33 @@
+{
+  "name": "backend-course-2025-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js --host 127.0.0.1 --port 3000 --cache ./cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkachuk1215/backend-course-2025-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tkachuk1215/backend-course-2025-6/issues"
+  },
+  "homepage": "https://github.com/tkachuk1215/backend-course-2025-6#readme",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "superagent": "^10.2.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
