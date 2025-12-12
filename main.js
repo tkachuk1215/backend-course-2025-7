@@ -6,6 +6,9 @@ const express = require("express");
 const multer = require("multer");
 const swaggerUi = require("swagger-ui-express");
 const swaggerJsdoc = require("swagger-jsdoc");
+require("dotenv").config();
+
+///
 
 // =====================
 // Commander (з Частини 1)
